@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: pytest tests.py
         timeout: 10
-        max-score: 100
+        max-score: 60
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
