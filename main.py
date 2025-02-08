@@ -3,7 +3,7 @@ def myName():
   '''
   Return your full name as a string.
   '''
-  return "JLD"  # Replace with your actual full name
+  return "DJL"  # Replace with your actual full name
 
 ### Numbers and functions
 def myMax(x, y):
