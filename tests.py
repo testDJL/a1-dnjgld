@@ -20,7 +20,7 @@ class Hw1MethodsTest(unittest.TestCase):
         self.assertTrue(factorial(4) == 4 * 3 * 2 * 1)
 
     def test_combineand(self):
-        self.assertTrue(combineAnd("abc", "xyx") == "abc and xyz")
+        self.assertTrue(combineAnd("abc", "xyz") == "abc and xyz")
 
     def test_changextoy(self):
         self.assertTrue(changeXtoY("hello world", "world", "GW") == "hello GW")
