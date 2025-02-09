@@ -18,7 +18,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: test_1
-        setup-command: ''
+        setup-command: sudo -H pip3 install pytest
         command: pytest test_problem_1.py
         timeout: 10
         max-score: 1
